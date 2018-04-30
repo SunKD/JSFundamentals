@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="trivia.js"></script>
+    <title>Document</title>
+    <style>
+        .col-md-11{
+            height: 250px;
+            text-align: center;
+        }
+
+        .lightgreen{
+            background-color: lightgreen;
+        }
+
+        .blue{
+            background-color: lightskyblue;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+
+        .grey{
+            background-color: grey;
+        }
+
+        #wrong, #right{
+            display: hide;
+            height: 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <a href="index.html">Continue wth new questions</a>
+        </div>
+        <div class="col-md-4">
+            <h1>Trivia Night</h1>
+        </div>
+        <div class="col-md-4"><h3 class="point"> 0 Points</div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12"><h2>Video Games</h2></div>
+            </div>
+            <div id="vid100" class="col-md-11 blue">100</div>
+            <br>
+            <div id="vid200" class="col-md-11 blue">200</div>
+            <br>
+            <div id="vid300" class="col-md-11 blue">300</div>            
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12"><h2>General Knowledge</h2></div>
+            </div>
+            <div id="gen100" class="col-md-11 yellow">100</div>
+            <br>
+            <div id="gen200" class="col-md-11 yellow">200</div>
+            <br>
+            <div id="gen300" class="col-md-11 yellow">300</div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12"><h2>Science:Computer</h2></div>
+            </div>
+            <div id="sci100" class="col-md-11 lightgreen">100</div>
+            <br>
+            <div id="sci200" class="col-md-11 lightgreen">200</div>
+            <br>
+            <div id="sci300" class="col-md-11 lightgreen">300</div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
